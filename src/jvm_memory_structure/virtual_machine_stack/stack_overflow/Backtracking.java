@@ -5,7 +5,6 @@ public class Backtracking {
         method(1);
     }
     static int method(int num){
-
         System.out.println(num++);
         return method(num);
     }
